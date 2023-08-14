@@ -1,0 +1,83 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+body {
+    font-family: 'cursive', serif;
+    max-width: 90%;
+    color: #e6f705;
+    margin: auto;
+    background-color: #6ad6ec;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 160%;
+    background-position: left;
+    background-image: url();
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 113, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+body [attribute="bad"] {
+    color: red;
+}
+
+body [attribute="good"] {
+    color: green;
+}
+
+blockquote {
+    font-size: italic;
+    
+}
+
+li:nth-child(1) {
+    display: inline-block;
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    background-size: contain;
+    padding-right: 20px;
+}
+
+li:nth-child(2) {
+    display: inline-block;
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    background-size: contain;
+    padding-right: 20px;
+}
+
+li:nth-child(3) {
+    display: inline-block;
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    background-size: contain;
+    padding-right: 20px;
+}
+
+.farmer {
+    border-left: 2px solid green;
+}
+
+.villagers {
+    border-left: 2px solid pink;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition-property: inherit;
+}
+
+tr:nth-child(odd) {
+    background-color: white
+}
+
+tr:nth-child(even) {
+    background-color: grey
+}
